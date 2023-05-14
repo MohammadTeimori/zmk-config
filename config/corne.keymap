@@ -22,6 +22,7 @@
                 <&kp>;
         };
     };
+    
     keymap {
         compatible = "zmk,keymap";
 
