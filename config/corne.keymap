@@ -34,10 +34,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&tp TAB LA(TAB)  &kp Q  &kp W     &kp E  &kp R      &kp T      &kp Y  &kp U      &kp I    &kp O     &kp P  &mt ESC BACKSPACE
-      &kp LCTRL  &kp A  &kp S     &kp D  &kp F      &kp G      &kp H  &kp J      &kp K    &kp L  &kp SEMI            &kp SQT
-      &kp LSHFT  &kp Z  &kp X     &kp C  &kp V      &kp B      &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH         &kp RSHIFT
-                               &kp LGUI  &mo 1  &kp SPACE    &kp RET  &mo 2   &kp LALT
+  &kp TAB  &kp Q  &kp W     &kp E  &kp R      &kp T      &kp Y  &kp U             &kp I    &kp O     &kp P  &mt ESC BACKSPACE
+&kp LCTRL  &kp A  &kp S     &kp D  &kp F      &kp G      &kp H  &kp J             &kp K    &kp L  &kp SEMI            &kp SQT
+&kp LSHFT  &kp Z  &kp X     &kp C  &kp V      &kp B      &kp N  &kp M         &kp COMMA  &kp DOT  &kp FSLH         &kp RSHIFT
+                         &kp LGUI  &mo 1  &kp SPACE    &kp RET  &mo 2  &mt LALT LA(TAB)
             >;
         };
 
@@ -50,7 +50,7 @@
 
             bindings = <
     &kp TAB               &trans               &trans               &trans  &trans  &sys_reset     &trans  &kp NUMBER_1  &kp NUMBER_2        &kp N3  &trans  &kp BSPC
-&bootloader  &kp LS(PRINTSCREEN)  &kp LC(PRINTSCREEN)  &kp LA(PRINTSCREEN)  &trans      &trans     &trans        &kp N4        &kp N5  &kp NUMBER_6  &trans    &trans
+&bootloader  &kp LS(PRINTSCREEN)  &kp LC(PRINTSCREEN)  &kp LA(PRINTSCREEN)  &trans      &trans     &trans        &kp N4        &kp N5  &kp NUMBER_6  &trans   &mt 0 0
   &kp LSHFT           &bt BT_CLR           &bt BT_PRV           &bt BT_NXT  &trans      &trans     &trans        &kp N7        &kp N8        &kp N9  &trans    &trans
                                                                   &kp LGUI  &trans   &kp SPACE    &kp RET        &kp N0      &kp RALT
             >;
